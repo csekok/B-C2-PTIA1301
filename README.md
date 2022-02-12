@@ -11,7 +11,8 @@
         * export JAVA_HOME=/opt/jdk-17.0.2
         * export PATH=$JAVA_HOME/bin:$PATH
 * Töltse le és telepítse a Gitet: https://git-scm.com/download/win
-* Töltse le és telepítse a Mavent: https://maven.apache.org/download.cgi
+* Töltse le és telepítse a Mavent (Binary): https://maven.apache.org/download.cgi
+* Tömörítse ki a Java mappába
 * Töltse le és telepítse a IntelliJ IDEA-t: https://www.jetbrains.com/idea/download/#section=windows
 * Klónozza le ezt a repository-t:
     * Kattintson a zöld Clone gombra
