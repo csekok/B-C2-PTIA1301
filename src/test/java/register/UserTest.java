@@ -7,7 +7,7 @@ import static org.junit.Assert.assertEquals;
 public class UserTest {
     //TODO Before doing a task remove "/*" and "*/" in its test class (Shortcut: Crtl + Shift + /).
 
-    /*
+
     int baseYear = 1999;
     User user = new User();
 
@@ -51,5 +51,5 @@ public class UserTest {
         int year = baseYear + expectedAge;
         user.setBirthYear(baseYear);
         assertEquals(expectedAge, user.ageIn(year));
-    }*/
+    }
 }

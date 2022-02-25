@@ -1,5 +1,7 @@
 package register;
 
+import java.util.Scanner;
+
 public class RegisterMain {
     /**
      * Task 0: Update the project:
@@ -16,6 +18,45 @@ public class RegisterMain {
      * Hint: Use psvm in IntelliJ
      * More templates in File / Settings / Editor / Live Templates
      */
+
+    public static void main(String[] args) {
+        /*int i = 3;
+        System.out.println(i);
+        System.out.println(i++);
+        System.out.println(++i);
+
+        User user = new User();
+        user.setName("John Doe");
+        user.setBirthYear(1980);
+        user.setAddress("Baker Street");
+        User anotherUser = new User("Joe Doe", 2003, "Main Street");
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Name: ");
+        user.setName(scanner.nextLine());
+        System.out.print("Birth year: ");
+        user.setBirthYear(scanner.nextInt());
+        scanner.nextLine();
+        System.out.print("Address: ");
+        user.setAddress(scanner.nextLine());
+
+        System.out.println(user.getName());
+        System.out.println(user.getBirthYear());
+        System.out.println(user.getAddress());
+
+        System.out.println(anotherUser.getName());
+        System.out.println(anotherUser.getBirthYear());
+        System.out.println(anotherUser.getAddress());*/
+
+        Song song = new Song("Ed", "Perfect", 5.97);
+        Scanner scanner = new Scanner(System.in);
+        song.setBand(scanner.nextLine());
+        song.setTitle(scanner.nextLine());
+        song.setLengthInMinutes(scanner.nextDouble());
+        System.out.println(song.getBand());
+        System.out.println(song.getTitle());
+        System.out.println(song.getLengthInMinutes());
+    }
 
     /**
      * Task 2: Create a User class in register package.
