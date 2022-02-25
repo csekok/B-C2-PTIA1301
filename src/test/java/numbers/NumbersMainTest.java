@@ -5,7 +5,7 @@ import junit.framework.TestCase;
 public class NumbersMainTest extends TestCase {
     //TODO Before doing a task remove "/*" and "*/" in its test class (Shortcut: Crtl + Shift + /).
 
-    /*
+
     public void testSubtractFiveIfGreaterThanFiveWithZero() {
         assertEquals(0, NumbersMain.subtractFiveIfGreaterThanFive(0));
     }
@@ -60,5 +60,5 @@ public class NumbersMainTest extends TestCase {
 
     public void testGetFirstDecimal4() {
         assertEquals(1, NumbersMain.getFirstDecimal(3.14));
-    }*/
+    }
 }

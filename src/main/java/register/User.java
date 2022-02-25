@@ -6,9 +6,7 @@ public class User {
     private String address;
 
     public User() {
-        this.name = "John Doe";
-        this.birthYear = 1987;
-        this.address = "Baker Street 135";
+        this("John Doe", 1987, "Baker Street 135");
     }
 
     public User(String name, int birthYear, String address) {
