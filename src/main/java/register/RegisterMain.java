@@ -1,5 +1,8 @@
 package register;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.Scanner;
 
 public class RegisterMain {
@@ -47,6 +50,13 @@ public class RegisterMain {
         System.out.println(anotherUser.getName());
         System.out.println(anotherUser.getBirthYear());
         System.out.println(anotherUser.getAddress());*/
+
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        try {
+            String row = reader.readLine();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
 
         Song song = new Song("Ed", "Perfect", 5.97);
         Scanner scanner = new Scanner(System.in);
