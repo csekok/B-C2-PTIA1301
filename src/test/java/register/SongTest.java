@@ -5,10 +5,10 @@ import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
 public class SongTest {
-    //TODO Before doing a task remove "/*" and "*/" in its test class (Shortcut: Crtl + Shift + /).
+    //TODO Before doing a task remove "/*" and "*/" in its test class (Shortcut: Ctrl + Shift + /).
 
 
-    Song song = new Song("AC/DCd", "Highway to Helld", 3.34);
+    Song song = new Song("AC/DCd", "Highway to Hell", 3.34);
 
     @Test
     public void testSetBand() {

@@ -9,7 +9,7 @@ import static org.junit.Assert.*;
 
 public class NewNumbersMainTest {
     private static final Random RANDOM_GENERATOR = new Random(50);
-    //TODO Before doing a task remove "/*" and "*/" in its test class (Shortcut: Crtl + Shift + /).
+    //TODO Before doing a task remove "/*" and "*/" in its test class (Shortcut: Ctrl + Shift + /).
 
 
      @Test

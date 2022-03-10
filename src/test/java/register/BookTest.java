@@ -6,7 +6,7 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNull;
 
 public class BookTest {
-    //TODO Before doing a task remove "/*" and "*/" in its test class (Shortcut: Crtl + Shift + /).
+    //TODO Before doing a task remove "/*" and "*/" in its test class (Shortcut: Ctrl + Shift + /).
 
 /*
     @Test

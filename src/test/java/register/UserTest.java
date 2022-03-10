@@ -5,7 +5,7 @@ import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
 public class UserTest {
-    //TODO Before doing a task remove "/*" and "*/" in its test class (Shortcut: Crtl + Shift + /).
+    //TODO Before doing a task remove "/*" and "*/" in its test class (Shortcut: Ctrl + Shift + /).
 
 
     int baseYear = 1999;

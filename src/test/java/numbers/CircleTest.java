@@ -3,7 +3,7 @@ package numbers;
 import junit.framework.TestCase;
 
 public class CircleTest extends TestCase {
-    //TODO Before doing a task remove "/*" and "*/" in its test class (Shortcut: Crtl + Shift + /).
+    //TODO Before doing a task remove "/*" and "*/" in its test class (Shortcut: Ctrl + Shift + /).
 
 
     public void testGetRadiusOfUnitCircle() {
