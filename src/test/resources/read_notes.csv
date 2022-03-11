@@ -1,0 +1,6 @@
+Name;Topic;Text
+Gordon Dowd;Database;JPA
+Chloe Henderson;Type;Primitives are byte, short, int, long, float, double, boolean, char.
+Lucas Nash;Type;Generics
+Joan Ogden;Type;Integer is a wrapper or boxing class of int.
+Martin Wickman;Database;One-to-many relationship
