@@ -45,4 +45,9 @@ public class User {
         }
         return year - birthYear;
     }
+
+    @Override
+    public String toString() {
+        return name;
+    }
 }

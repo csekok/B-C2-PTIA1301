@@ -31,7 +31,6 @@ public class NewRegisterMainTest {
     @Rule
     public TemporaryFolder temporaryFolder = new TemporaryFolder();
 
-    /** Task 3
      @Test
      public void testWriteUsersIntoFile() throws IOException {
      String filepath = RESOURCE_PATH + WRITE_PREFIX + USERS + FILE_EXTENSION;
@@ -50,9 +49,7 @@ public class NewRegisterMainTest {
      user.getName() + ";" + user.getBirthYear() + ";" + user.getAddress());
      }
      }
-     */
 
-    /** Task 4
      @Test
      public void testReadUsersFromFile() throws IOException {
      String filepath = RESOURCE_PATH + READ_PREFIX + USERS + FILE_EXTENSION;
@@ -69,7 +66,6 @@ public class NewRegisterMainTest {
      user.getName() + ";" + user.getBirthYear() + ";" + user.getAddress());
      }
      }
-     */
 
     /** Task 5
      @Test
