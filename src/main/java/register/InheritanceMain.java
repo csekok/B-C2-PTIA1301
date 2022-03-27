@@ -27,6 +27,28 @@ public class InheritanceMain {
      * Create a main method and create some Employee object there.
      */
 
+    public static void main(String[] args) {
+        Employee employee = new Employee();
+        User user = new User();
+        User userEmployee = new Employee();
+        employee.setName("John Doe");
+        user.setName("Ben Smith");
+        userEmployee.setName("Kate Doe");
+        System.out.println(employee.getName());
+        System.out.println(user.getName());
+        System.out.println(userEmployee.getName());
+        System.out.println(employee.getBirthYear());
+        System.out.println(employee.getEyeColor());
+
+        Goods milk = new Goods("milk", 300);
+        Goods chocolate = new Goods("chocolate", 250);
+        Shopping shopping = new Shopping();
+        shopping.addGoods(milk);
+        shopping.addGoods2(chocolate);
+        milk.setPrice(400);
+        System.out.println(shopping.createReceipt());
+    }
+
     /**
      * Task 4: Create a Goods class. Every goods has to have a name and a price.
      * Add constructor, getter and setter methods. Try these in main method.

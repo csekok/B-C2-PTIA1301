@@ -53,11 +53,10 @@ public class UserTest {
         assertEquals(expectedAge, user.ageIn(year));
     }
 
-    /*
     @Test
     public void testEyeColorConstructor() {
         User blueEyeUser = new User("John Doe", 2000, "Baker Street", EyeColor.BLUE);
         assertEquals(EyeColor.BLUE, blueEyeUser.getEyeColor());
     }
-    */
+
 }
