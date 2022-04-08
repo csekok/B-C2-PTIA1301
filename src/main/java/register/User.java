@@ -56,8 +56,20 @@ public class User {
         return year - birthYear;
     }
 
+    /*
     @Override
     public String toString() {
         return name;
+    }
+     */
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "name='" + name + '\'' +
+                ", birthYear=" + birthYear +
+                ", address='" + address + '\'' +
+                ", eyeColor=" + eyeColor +
+                '}';
     }
 }
