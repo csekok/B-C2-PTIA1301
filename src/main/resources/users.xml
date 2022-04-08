@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<users>
+    <user>
+        <name>Tony Stark</name>
+        <birthYear>1970</birthYear>
+        <address>10880 Malibu Point, Malibu</address>
+        <eyeColor>BROWN</eyeColor>
+    </user>
+    <user>
+        <name>Stephen Strange</name>
+        <birthYear>1930</birthYear>
+        <address>177A Bleecker Street, New York City</address>
+        <eyeColor>GRAY</eyeColor>
+    </user>
+    <user>
+        <name>Steve Rogers</name>
+        <birthYear>1918</birthYear>
+        <address>569 Leaman Place, Brooklyn</address>
+        <eyeColor>BLUE</eyeColor>
+    </user>
+</users>

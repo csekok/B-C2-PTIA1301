@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<users>
+    <user>
+        <name>Peter Parker</name>
+        <birthYear>2001</birthYear>
+        <address>20 Ingram Street, New York</address>
+        <eyeColor>HAZEL</eyeColor>
+    </user>
+    <user>
+        <name>John Doe</name>
+        <birthYear>1988</birthYear>
+        <address>Unknown</address>
+        <eyeColor>AMBER</eyeColor>
+    </user>
+</users>
