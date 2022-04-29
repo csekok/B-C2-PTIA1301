@@ -54,10 +54,10 @@ public class XmlReader {
             Document document = documentBuilder.parse(filepath);
 
             Element rootElement = document.getDocumentElement();
-            System.out.println(rootElement.getNodeName());
+            /*System.out.println(rootElement.getNodeName());
             System.out.println(rootElement.getNodeType());
             System.out.println("Element node short value: " + Node.ELEMENT_NODE);
-            System.out.println("Text node short value: " + Node.TEXT_NODE);
+            System.out.println("Text node short value: " + Node.TEXT_NODE);*/
             //System.out.println(rootElement.getTextContent());
 
             NodeList childNodeList = rootElement.getChildNodes();
