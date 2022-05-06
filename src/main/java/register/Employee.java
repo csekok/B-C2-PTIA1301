@@ -1,5 +1,6 @@
 package register;
 
+@ClassHistory(author = "Kinga", createdOn = "2022-03-05", lastModifiedOn = "2022-05-06")
 public class Employee extends User {
     private String position;
     private int salary;
